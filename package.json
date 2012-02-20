@@ -16,12 +16,12 @@
     "connector": "git://github.com/mikepb/connector.git"
   },
   "devDependencies": {
-    "coffee-script": "~1.1.3",
-    "mocha": "~0.3.6",
-    "sinon": "~1.1.1",
-    "vows": "~0.5.11"
+    "coffee-script": "1.2.x",
+    "mocha": "0.12.x",
+    "sinon": "1.3.x",
+    "vows": "0.6.x"
   },
   "scripts": {
-    "test": "cake test"
+    "test": "mocha spec/*test.coffee; vows -i test-vows/**/*-test.js"
   }
 }

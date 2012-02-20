@@ -16,9 +16,8 @@
 
 
 assert = require 'assert'
-clerk = require 'clerk'
 sinon = require 'sinon'
-
+clerk = require '../lib/clerk'
 util = require '../lib/clerk/util'
 
 

@@ -17,16 +17,12 @@
 
 assert = require 'assert'
 sinon = require 'sinon'
-clerk = require 'clerk'
+clerk = require '../lib/clerk'
 
 Connector = clerk.Connector
 
 
 describe 'Connector', ->
-
-
-
-
 
   describe '#constructor()', ->
 

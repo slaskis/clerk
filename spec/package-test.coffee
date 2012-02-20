@@ -16,10 +16,8 @@
 
 
 assert = require 'assert'
-clerk = require 'clerk'
+clerk = require '../lib/clerk'
 fs = require 'fs'
-
-clerk = require 'clerk'
 
 
 

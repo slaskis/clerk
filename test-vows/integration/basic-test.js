@@ -346,14 +346,18 @@ suite.addBatch({
   }
 });
 
-suite.addBatch({
-  'Client': {
-    topic: client,
-    'restart': function(client) {
-      client.restart(function(){});
-    }
-  }
-});
+// Commented out because it crashed CouchDB (v 1.1.1 on OS X 10.7.2)
+// suite.addBatch({
+//   'Client': {
+//     topic: client,
+//     'restart': function(client) {
+//       client.restart(this.callback);
+//     },
+//     'should be ok': function(err) {
+//       console.log(arguments)
+//     }
+//   }
+// });
 
 suite.addBatch({
   'Wait 2 second': {
