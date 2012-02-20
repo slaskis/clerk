@@ -18,10 +18,10 @@ npm install clerk
 
 ## Running Tests
 
-Install `vows`:
+Install dev-dependencies:
 
 ```bash
-npm install vows
+npm install -d
 ```
 
 Then:
